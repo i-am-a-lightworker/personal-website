@@ -19,6 +19,9 @@ export function Footer() {
           <a href="mailto:shanlinthia@gmail.com" className="flex items-center gap-2 transition hover:text-accent">
             <Mail size={16} /> shanlinthia@gmail.com
           </a>
+          <a href="/resume.json" download className="flex items-center gap-2 transition hover:text-accent">
+            <MoveUpRight size={16} /> Download Resume
+          </a>
           <a href="#top" className="flex items-center gap-2 transition hover:text-accent">
             <MoveUpRight size={16} /> Back to top
           </a>
@@ -28,7 +31,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-8 max-w-7xl border-t border-slate-200 pt-6 text-sm text-slate-500">
-        © 2026 DivaCats LLC. All rights reserved.
+        © 2026 Shalinthia Blow. All rights reserved.
       </div>
     </footer>
   );
