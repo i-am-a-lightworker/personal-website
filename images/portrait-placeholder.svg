@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#f1e4d5"/>
+  <circle cx="400" cy="360" r="180" fill="#d9b79c"/>
+  <path d="M215 930c45-170 140-255 185-255s140 85 185 255" fill="#6f4f39"/>
+  <rect x="120" y="180" width="560" height="640" rx="42" fill="none" stroke="#8b6650" stroke-width="10" opacity="0.25"/>
+  <text x="400" y="950" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#6f4f39">Portrait Placeholder</text>
+</svg>
