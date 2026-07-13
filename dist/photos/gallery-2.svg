@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#f2e7dc"/>
+  <rect x="150" y="180" width="500" height="600" rx="28" fill="#fbf5eb"/>
+  <rect x="220" y="250" width="180" height="240" rx="18" fill="#b67e4d"/>
+  <rect x="430" y="250" width="150" height="140" rx="18" fill="#7b4d2b"/>
+  <rect x="430" y="410" width="150" height="60" rx="18" fill="#5b3b23"/>
+  <text x="400" y="940" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#6a452f">Gallery Placeholder</text>
+</svg>
