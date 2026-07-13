@@ -19,8 +19,11 @@ export function Footer() {
           <a href="mailto:shanlinthia@gmail.com" className="flex items-center gap-2 transition hover:text-accent">
             <Mail size={16} /> shanlinthia@gmail.com
           </a>
+          <a href="/resume.html" className="flex items-center gap-2 transition hover:text-accent">
+            <MoveUpRight size={16} /> View Resume
+          </a>
           <a href="/resume.json" download className="flex items-center gap-2 transition hover:text-accent">
-            <MoveUpRight size={16} /> Download Resume
+            <MoveUpRight size={16} /> Download JSON
           </a>
           <a href="#top" className="flex items-center gap-2 transition hover:text-accent">
             <MoveUpRight size={16} /> Back to top
