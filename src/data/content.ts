@@ -23,7 +23,7 @@ export const timelineData = [
   { year: 'Personal Hardship', title: 'Withdrew during third year', description: 'Made a difficult choice that strengthened my resolve and clarity.' },
   { year: 'Pandemic', title: 'Reinvention over retreat', description: 'Started anew when traditional career paths closed.' },
   { year: 'Operation HOPE', title: 'Entrepreneurial training', description: 'Learned the fundamentals of business and self-direction.' },
-  { year: 'DivaCats LLC', title: 'Founded home-based business', description: 'Turned survival into a recognized, legitimate venture.' },
+  { year: 'Shalinthia Blow', title: 'Founded home-based business', description: 'Turned survival into a recognized, legitimate venture.' },
   { year: 'Certified', title: 'NYC MWBE and NYS MWBE', description: 'Created a business foundation with credibility and formal recognition.' },
   { year: 'Today', title: 'Continuing the journey', description: 'Still building with purpose, healing, and a steady sense of direction.' },
 ];

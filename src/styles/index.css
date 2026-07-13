@@ -29,3 +29,54 @@ body {
 ::selection {
   background: rgba(30, 58, 138, 0.2);
 }
+
+.hero-mesh {
+  background-image: radial-gradient(circle at 20% 15%, rgba(201, 162, 39, 0.3), transparent 18%),
+    radial-gradient(circle at 80% 25%, rgba(30, 58, 138, 0.45), transparent 20%),
+    radial-gradient(circle at 35% 80%, rgba(30, 58, 138, 0.2), transparent 20%),
+    radial-gradient(circle at 70% 75%, rgba(201, 162, 39, 0.16), transparent 18%);
+  opacity: 0.9;
+  animation: hero-mesh 18s ease-in-out infinite;
+}
+
+@keyframes hero-mesh {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(-16px, 12px, 0) scale(1.02);
+  }
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(22px);
+}
+
+.timeline-line {
+  background: linear-gradient(180deg, rgba(30, 58, 138, 0.9), rgba(201, 162, 39, 0.9), rgba(30, 58, 138, 0.25));
+}
+
+.shimmer-badge {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-badge::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.55) 50%, transparent 100%);
+  transform: translateX(-120%);
+  animation: shimmer 2.8s linear infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
+}

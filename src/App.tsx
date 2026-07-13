@@ -27,8 +27,8 @@ function App() {
           </div>
         </section>
 
-        <section id="manifesto" className="scroll-mt-24 px-6 py-24 sm:px-8 lg:px-12">
-          <div className="mx-auto max-w-7xl">
+        <section id="manifesto" className="scroll-mt-24 bg-primary px-0 py-24 text-white sm:px-0 lg:px-0">
+          <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
             <Manifesto />
           </div>
         </section>
@@ -89,7 +89,7 @@ function App() {
                   If you are looking for a grounded leader with resilience and follow-through, I would love to connect.
                 </p>
                 <div className="mt-8 flex flex-wrap gap-4">
-                  <a href="mailto:hello@divacats.com" className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 font-medium text-white transition hover:bg-primary">
+                  <a href="mailto:shanlinthia@gmail.com" className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 font-medium text-white transition hover:bg-primary">
                     <Mail size={18} /> Contact Me Now
                   </a>
                   <a href="#top" className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-6 py-3 font-medium text-slate-700 transition hover:border-accent hover:text-accent">

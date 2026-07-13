@@ -10,8 +10,9 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/80 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:px-8 lg:px-12">
-        <a href="#top" className="text-lg font-semibold tracking-[0.2em] text-primary uppercase">
-          DivaCats LLC
+        <a href="#top" className="text-lg font-semibold tracking-[0.06em] text-primary uppercase inline-flex items-center gap-3">
+          <span className="inline-grid h-8 w-8 place-items-center rounded-full bg-goldAccent text-white font-semibold">SB</span>
+          Shalinthia Blow
         </a>
         <nav className="hidden items-center gap-8 text-sm font-medium text-slate-600 md:flex">
           {links.map((link) => (

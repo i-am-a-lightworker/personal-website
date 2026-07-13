@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Shalinthia Blow",
+    "label": "Business Development Specialist",
+    "email": "shanlinthia@gmail.com",
+    "phone": "(646) 804-3070",
+    "summary": "Google certified project manager with expertise that assists firm growth through research and understanding of client needs. Business development specialist with years of legal and finance experience."
+  },
+  "work": [
+    {
+      "name": "NYS Department of Financial Services",
+      "position": "Virtual Currency Policy Development Consultant/Project Manager",
+      "startDate": "2023-01-01",
+      "endDate": "2025-01-01",
+      "highlights": [
+        "Awarded competitive contract through RFP to develop virtual currency policies",
+        "Reported directly to the acting Superintendent on policy guidance initiatives",
+        "Drafted process and guidance memo for Superintendent approval and firmwide distribution"
+      ]
+    },
+    {
+      "name": "New York Power Authority",
+      "position": "Project Management Consultant/E-Learning Course Developer",
+      "startDate": "2022-01-01",
+      "endDate": "2026-01-01",
+      "highlights": [
+        "Awarded competitive contract through RFP for e-learning course development support",
+        "Managed a remote staff of nine professionals",
+        "Coordinated production of SCORM 1.2 compliant e-learning courseware using Articulate Storyline 360"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cardozo School of Law",
+      "area": "Law",
+      "studyType": "Candidate for Juris Doctorate",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01"
+    },
+    {
+      "institution": "Adelphi University",
+      "area": "Business/International Studies",
+      "studyType": "Bachelor of Arts",
+      "startDate": "1999-01-01",
+      "endDate": "2004-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Business Development",
+      "keywords": ["RFP Response", "Pitchbook Production", "Project Management", "Remote Team Management"]
+    },
+    {
+      "name": "Technology",
+      "keywords": ["MS Office Suite", "Salesforce", "Articulate Storyline 360", "LexisNexis", "Westlaw", "EDGAR", "Google Suite"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Google Project Management Certificate",
+      "issuer": "Google"
+    },
+    {
+      "name": "Licensed Notary Public"
+    }
+  ]
+}

@@ -6,18 +6,18 @@ export function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
         <div className="max-w-xl">
           <div className="flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-accent/10 text-accent">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-goldAccent/10 text-goldAccent">
               <Mail size={20} />
             </div>
             <div>
-              <p className="font-semibold text-primary">DivaCats LLC</p>
+              <p className="font-semibold text-primary">Shalinthia Blow</p>
               <p className="text-sm text-slate-500">Building opportunities through resilience, leadership, and purpose.</p>
             </div>
           </div>
         </div>
         <div className="flex flex-wrap items-center gap-4 text-sm text-slate-600">
-          <a href="mailto:hello@divacats.com" className="flex items-center gap-2 transition hover:text-accent">
-            <Mail size={16} /> hello@divacats.com
+          <a href="mailto:shanlinthia@gmail.com" className="flex items-center gap-2 transition hover:text-accent">
+            <Mail size={16} /> shanlinthia@gmail.com
           </a>
           <a href="#top" className="flex items-center gap-2 transition hover:text-accent">
             <MoveUpRight size={16} /> Back to top
